@@ -1,0 +1,56 @@
+/* RESET STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* GLOBAL STYLES */
+
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+}
+
+body {
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* HEADER / NAVIGATION BAR */
+
+header {
+    height: 69px;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: underline;
+    color: seashell;
+    margin: 0 20px;
+}
+
+.navigation a:hover {
+    opacity: 0.7;
+}
