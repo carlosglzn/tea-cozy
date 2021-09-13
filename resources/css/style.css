@@ -31,6 +31,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: black;
 }
 
 .logo {
@@ -53,4 +54,33 @@ header {
 
 .navigation a:hover {
     opacity: 0.7;
+}
+
+/* MISSION MAIN SECTION */
+
+.main {
+    top: 70px;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    background-image: url('../images/img-mission-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: auto;
+}
+
+.mission h2 {
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.mission h4 {
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+    padding: 20px 0;
 }
