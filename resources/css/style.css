@@ -56,6 +56,23 @@ header {
     opacity: 0.7;
 }
 
+@media screen and (max-width: 700px) {
+
+    header {
+        height: auto;
+    }
+
+    .navigation {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+
+    .navigation a {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
 /* MISSION MAIN SECTION */
 
 .main {
@@ -71,16 +88,11 @@ header {
     margin: auto;
 }
 
-.mission h2 {
-    background-color: black;
-    width: 1200px;
-    text-align: center;
-    padding: 10px 0;
-}
-
-.mission h4 {
+.mission h2, h4 {
     background-color: black;
     width: 1200px;
     text-align: center;
     padding: 20px 0;
 }
+
+
