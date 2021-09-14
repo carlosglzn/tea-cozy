@@ -112,3 +112,40 @@ header {
     }
 }
 
+/* FEATURED SECTION */
+
+.featured-container {
+    width: 1000px;
+    position: relative;
+    margin: 150px auto 90px auto;
+}
+
+.featured-statement {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    display: block;
+}
+
+.img-container img {
+    height: 200px;
+    width: 300px;
+    flex-basis: auto;
+    margin: 10px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
