@@ -96,3 +96,19 @@ header {
 }
 
 
+@media screen and (max-width: 1200px) {
+    .main {
+        width: auto;
+    }
+
+    .mission h2, h4 {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main {
+        top: 138px;
+    }
+}
+
